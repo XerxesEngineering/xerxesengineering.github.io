@@ -1,0 +1,210 @@
+ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,body,html,p,blockquote,fieldset,input{
+    margin:0;
+    padding:0;
+}
+ul{
+    list-style:none;
+}
+fieldset{
+    border:0;
+}
+a img{
+    border:0;
+}
+.clear{
+    clear:both;
+}
+
+
+body {
+    /*background: #021f2f;*/
+    background: url(granite_bg.jpg);
+    font-family: arial, sans-serif;
+    font-size:12px;
+    color:#666666;
+    height: 100%;
+    margin:0;
+    padding:0;
+}
+
+a{
+    color: #26518a;
+    text-decoration: none;
+}
+p {
+    line-height: 170%;
+    color: #626262;
+    font-size: 13px;
+    padding: 5px 0px 5px 0px;
+}
+h1 {
+    font-size:30px;
+    font-weight:bold;
+    color:#272e34;
+    line-height:1.5;
+    padding: 5px 0px 5px 0px;
+}
+h2 {
+    font-size:22px;
+    font-family: arial, sans-serif;
+    color:#272e34;
+    line-height:1.5;
+    padding: 5px 0px 5px 0px;
+}
+
+#wrapper {
+    width:960px;
+    margin: 0px auto;
+}
+
+.title{
+    width: 960px;
+    padding: 30px 0px 30px 0px;
+    font-size: 30px;
+    color: #fff;
+    font-weight: bold;
+}
+
+#main_stuff{
+  box-shadow: 10px 10px 10px #111111;
+}
+
+#navigation{
+    position: relative;
+    width: 960px;
+    height: 64px;
+    z-index: 2;
+    padding: 1px 0px 0px 0px;
+    background: url(navigationbg.jpg) no-repeat;
+}
+
+#navigation li{
+    float: left;
+    height: 64px;
+    z-index: 2;
+    padding: 0px 2px 0px 0px;
+    background: url(navli.gif) right top no-repeat;
+}
+
+#navigation li#active{
+    background: url(activebg.jpg) top right no-repeat;
+    -webkit-border-top-left-radius: 3px;
+    -webkit-border-top-right-radius: 3px;
+    -moz-border-radius-topleft: 3px;
+    -moz-border-radius-topright: 3px;
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+}
+
+
+#navigation li a{
+    position: relative;
+    display: block;
+    height: 45px;
+    color: #fff;
+    float: left;
+    z-index: 2;
+    padding: 19px 26px 0px 26px;
+    font-size: 15px;
+    text-decoration: none;
+}
+
+#navigation li a:hover{
+    background: url(hoverbg.jpg) repeat-x;
+    text-decoration: none;
+    -webkit-border-top-left-radius: 3px;
+    -webkit-border-top-right-radius: 3px;
+    -moz-border-radius-topleft: 3px;
+    -moz-border-radius-topright: 3px;
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+}
+
+#navigation li#active a{
+    background: #3a5984;
+    background: url(active.gif) bottom no-repeat;
+}
+
+#header{
+    position: relative;
+    width: 960px;
+    height: 249px;
+    z-index: 1;
+    margin: -10px 0px 0px 0px;
+}
+
+input.gsc-input {
+    border-color: #BCCDF0;
+}
+
+input.gsc-search-button {
+    border-color: #666666;
+    background-color: #CECECE;
+}
+
+.weebly_header{
+    background: url(%%HEADERIMG%%) no-repeat;
+}
+
+#weebly-menus .weebly-menu-wrap { z-index: 5000; position: relative; margin: -10px 0px 0px 0px; border-top: 1px solid #132238; }
+ #weebly-menus .weebly-menu { padding: 0; margin: 0; list-style: none; }
+ #weebly-menus .weebly-menu li { float: left; clear: left; width: 163px; text-align: left; }
+ #weebly-menus .weebly-menu li a { position: relative; display: block; width: 100%; background: #2f4665; border-top:  none; border-bottom: 1px solid #132238; border-right: none; border-left: none; text-decoration: none; font-size: 12px; font-weight: normal; line-height:1; padding: 8px 6px 8px 12px; color: #fff; }
+ #weebly-menus .weebly-menu li a:hover { background: #3f5f89; color: #fff; }
+
+#content{
+    width: 904px;
+    height:auto !important;
+    min-height:400px;
+    background: #fff;
+    border-bottom: 1px solid #cecece;
+    padding: 25px 28px 35px 28px;
+    z-index: 1;
+    margin: -10px 0px 0px 0px;
+}
+
+
+#content a{
+    color: #26518a;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+#footer{
+    width: 900px;
+    color: #666666;
+    font-size: 14px;
+    font-weight: normal;
+    text-align: left;
+    background: #e4e4e4;
+    border-top: 1px solid #fff;
+    padding: 20px 30px 20px 30px;
+    margin: 0px 0px 20px 0px;
+    border-radius: 0px 0px 5px 5px;
+}
+
+.footer_title{
+    font-weight: bold;
+    font-size: 16px;
+}
+
+#footer td{
+    padding: 0px 200px 0px 0px;
+    vertical-align: top;
+}
+
+#footer div{
+    padding: 0px 0px 10px 0px;
+    font-weight: bold;
+}
+
+#weebly_footer{
+    text-align:right;
+    font-weight:bold;
+}
+
+.assistly-widget a{
+    font-size: 14px;
+}
+
+
