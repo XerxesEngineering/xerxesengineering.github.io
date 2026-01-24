@@ -86,11 +86,39 @@
   --vp-button-brand-active-bg: var(--vp-c-brand-3);
 }
 
-/* .VPButton.brand {
+/* Brand button with 240px SVG background (icon-only) */
+.VPButton.medium.brand {
   background-image: url('/icons/appstore/black.svg');
   background-repeat: no-repeat;
-  background-size: 200px;
-} */
+  background-size: 240px 80px;
+  background-position: center center;
+  background-color: transparent;
+  border-radius: 0;
+  display: inline-block;
+  width: 240px; /* ensure the button stays 240px wide so the SVG isn't clipped */
+  height: 80px;
+  box-sizing: border-box;
+  padding: 8px 12px; /* preserve vertical padding */
+  text-indent: -9999px; /* hide any remaining text visually */
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+.VPButton.medium.brand:hover {
+  background-color: transparent;
+  border: none;
+  border-radius: 12px;
+  box-shadow: 0 0 40px #5F55EC, inset 0 0 20px #5F55EC;
+  transition: box-shadow 0.25s ease;
+}
+
+.VPButton.medium.brand:focus {
+  border: none;
+}
+
+.VPButton.medium.brand:active {
+  background-color: transparent;
+}
 
 /**
  * Component: Home

@@ -13,7 +13,7 @@ hero:
     alt: Aux logo
   actions:
     - theme: brand
-      text: 'Download on the App Store'
+      text: ''
       link: https://apple.co/49LILvi
       rel: external
 
