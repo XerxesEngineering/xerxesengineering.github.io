@@ -1,17 +1,27 @@
-# Aux
+
+<div class="flex-table">
+  <h1>
+  <div class="app-name">Aux for iOS</div>
+  <div class="app-tag">Music app for your NAS</div>
+  </h1>
+
+  <div style="height:10px"></div>
+
+  <img class="app-logo" src="/icons/180.png" width="180" alt="Aux logo">
+</div>
 
 ## Download
 
 <div class="flex-table">
-<div>
-<h3>Aux is a music player for your Synology NAS</h3>
+  <div>
+  <h3>Aux is a music player for your Synology NAS</h3>
 
-<div style="height:10px"></div>
+  <div style="height:10px"></div>
 
-<a class="VPButton medium brand" href="https://apple.co/49LILvi" target="_blank" rel="external"></a>
-</div>
+  <a class="VPButton medium brand" href="https://apple.co/49LILvi" target="_blank" rel="external"></a>
+  </div>
 
-<img src="/images/qr-code.jpg" width="180" alt="App Store QR Code">
+  <img src="/images/qr-code.jpg" width="180" alt="App Store QR Code">
 </div>
 
 ## Features

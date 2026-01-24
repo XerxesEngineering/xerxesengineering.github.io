@@ -71,6 +71,73 @@
 }
 
 /**
+  * Custom Styles
+  * -------------------------------------------------------------------------- */
+
+.app-logo {
+  box-shadow: 0 0 40px #5F55EC, inset 0 0 20px #5F55EC;
+  background-color: transparent;
+  border-radius: 40px;
+}
+
+.app-name {
+	background: var(--vp-home-hero-name-background);
+	-webkit-background-clip: text;
+	background-clip: text;
+	-webkit-text-fill-color: var(--vp-home-hero-name-color);
+}
+
+@media (min-width: 320px) {
+  .app-name {
+    line-height: 48px;
+    font-size: 40px;
+  }
+
+  .app-tag {
+    line-height: 32px;
+    font-size: 24px;
+  }
+}
+
+@media (min-width: 640px) {
+  .app-name {
+    line-height: 64px;
+    font-size: 56px;
+  }
+
+  .app-tag {
+    line-height: 40px;
+    font-size: 32px;
+  }
+}
+
+/**
+  * Flex Table
+  * -------------------------------------------------------------------------- */
+
+.flex-table {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+
+.flex-table img {
+  margin-left: auto;
+}
+
+@media (max-width: 640px) {
+  .flex-table {
+    flex-direction: column;
+    gap: 20px;
+    align-items: start;
+  }
+
+  .flex-table img {
+    margin-right: auto;
+  }
+}
+
+/**
  * Component: Button
  * -------------------------------------------------------------------------- */
 
@@ -183,19 +250,9 @@
 }
 
 /**
-  * Flex Table
-  * -------------------------------------------------------------------------- */
-
-.flex-table {
-  display: flex;
-  gap: 80px;
-  align-items: center;
-}
-
-@media (max-width: 640px) {
-  .flex-table {
-    flex-direction: column;
-    gap: 20px;
-    align-items: start;
-  }
+ * Outline Aside Layout Adjustments
+ * -------------------------------------------------------------------------- */
+:root {
+  --vp-layout-max-width: 1600px;
+  --vp-aside-width: 320px;
 }
