@@ -33,7 +33,7 @@ features:
 
 # Fast and feature-rich
 
-<div style="display: flex; gap: 40px">
+<div class="flex-table">
   <p>
     Aux connects securely and directly to your NAS. If you've chosen not to expose your NAS directly to the internet, Aux also works over your home network or with Synology's own QuickConnect service to relay the connection through Synology's secure servers.
   </p>

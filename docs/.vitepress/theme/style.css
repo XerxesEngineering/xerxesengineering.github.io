@@ -182,3 +182,20 @@
   --docsearch-primary-color: var(--vp-c-brand-1) !important;
 }
 
+/**
+  * Flex Table
+  * -------------------------------------------------------------------------- */
+
+.flex-table {
+  display: flex;
+  gap: 80px;
+  align-items: center;
+}
+
+@media (max-width: 640px) {
+  .flex-table {
+    flex-direction: column;
+    gap: 20px;
+    align-items: start;
+  }
+}

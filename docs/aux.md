@@ -2,7 +2,7 @@
 
 ## Download
 
-<div style="display: flex; gap: 80px; align-items: center">
+<div class="flex-table">
 <div>
 <h3>Aux is a music player for your Synology NAS</h3>
 
@@ -11,7 +11,7 @@
 <a class="VPButton medium brand" href="https://apple.co/49LILvi" target="_blank" rel="external"></a>
 </div>
 
-<img src="/images/qr-code.jpg" width="180" style="margin-left: auto; padding-right: 20px" alt="App Store QR Code">
+<img src="/images/qr-code.jpg" width="180" alt="App Store QR Code">
 </div>
 
 ## Features
