@@ -60,7 +60,8 @@ export default defineConfig({
     },
 
     footer: {
-      copyright: 'Copyright © 2010-2026 Xerxes Engineering LLC. All rights reserved.'
+      copyright: 'Copyright © 2010-2026 Xerxes Engineering LLC. All rights reserved.',
+      message: 'Apple, the Apple logo, Face ID, iPhone, Keychain, Swift, SwiftData, SwiftUI, Touch ID are trademarks of Apple Inc., registered in the U.S. and other countries. App Store is a service mark of Apple Inc, registered in the U.S. and other countries. Dolby, Dolby Atmos, and Dolby Digital Plus are trademarks or registered trademarks of Dolby Laboratories, registered in the U.S. and other countries. IOS is a trademark or registered trademark of Cisco in the U.S. and other countries and is used under license. Synology is a trademark of Synology Inc., registered in the Republic of China (Taiwan) and other regions.',
     }
   }
 })
