@@ -93,6 +93,7 @@
   background-size: 240px 80px;
   background-position: center center;
   background-color: transparent;
+  border: none;
   border-radius: 0;
   display: inline-block;
   width: 240px; /* ensure the button stays 240px wide so the SVG isn't clipped */
