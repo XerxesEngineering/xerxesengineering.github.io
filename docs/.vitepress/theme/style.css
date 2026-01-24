@@ -86,7 +86,7 @@
   --vp-button-brand-active-bg: var(--vp-c-brand-3);
 }
 
-/* Brand button with 240px SVG background (icon-only) */
+/* Brand button with 240px image background */
 .VPButton.medium.brand {
   background-image: url('/icons/appstore/black.svg');
   background-repeat: no-repeat;
