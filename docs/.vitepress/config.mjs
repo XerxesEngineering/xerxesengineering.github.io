@@ -15,7 +15,7 @@ export default defineConfig({
     ['meta', { property: 'og:locale', content: 'en' }],
     ['meta', { property: 'og:title', content: 'Xerxes Engineering' }],
     ['meta', { property: 'og:site_name', content: 'Xerxes Engineering' }],
-    ['meta', { property: 'og:image', content: 'https://www.xerxesengineering.com/images/og-image.png' }],
+    ['meta', { property: 'og:image', content: 'https://www.xerxesengineering.com/images/og-image-vertical.png' }],
     ['meta', { property: 'og:url', content: 'https://www.xerxesengineering.com' }],
     ['meta', { property: 'og:description', content: 'Developer of Aux — Music app for your NAS' }],
     ['meta', { name: 'keywords', content: 'Aux, Synology, NAS, DSaudio, DS audio, DSM, music player, audio player, mobile app, iphone app, ipad app, ios app, iphone, ipad, ipod, ios' }],
