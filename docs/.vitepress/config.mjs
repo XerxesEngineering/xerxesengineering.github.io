@@ -55,6 +55,10 @@ export default defineConfig({
       { text: 'Privacy', link: '/privacy' },
     ],
 
+    outline: {
+      level: "deep",
+    },
+
     footer: {
       copyright: 'Copyright © 2010-2026 Xerxes Engineering LLC. All rights reserved.'
     }
