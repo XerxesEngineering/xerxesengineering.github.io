@@ -118,22 +118,29 @@
 .flex-table {
   display: flex;
   gap: 20px;
-  align-items: center;
+  align-items: center; /* centered flex table */
 }
 
+
 .flex-table img {
-  margin-left: auto;
+  margin-left: auto; /* push image to the right */
 }
 
 @media (max-width: 640px) {
   .flex-table {
-    flex-direction: column;
-    gap: 20px;
-    align-items: start;
+    flex-direction: column; /* stack items vertically on small screens */
+  }
+
+  .flex-table h1 {
+    text-align: center;
+  }
+
+  .flex-table p > a {
+    margin: 0 auto; /* center the link */
   }
 
   .flex-table img {
-    margin-right: auto;
+    margin-right: auto; /* center the image */
   }
 }
 
@@ -162,7 +169,7 @@
   background-color: transparent;
   border: none;
   border-radius: 0;
-  display: inline-block;
+  display: block;
   width: 240px; /* ensure the button stays 240px wide so the SVG isn't clipped */
   height: 80px;
   box-sizing: border-box;
@@ -247,12 +254,4 @@
 
 .DocSearch {
   --docsearch-primary-color: var(--vp-c-brand-1) !important;
-}
-
-/**
- * Outline Aside Layout Adjustments
- * -------------------------------------------------------------------------- */
-:root {
-  --vp-layout-max-width: 1600px;
-  --vp-aside-width: 320px;
 }
