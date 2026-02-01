@@ -22,14 +22,14 @@ export default defineConfig({
     ['link', { rel: 'icon', type: 'image/png', href: '/icons/96.png', sizes: '96x96' }],
     ['link', { rel: 'apple-touch-icon', sizes: '180x180', href: '/icons/180.png' }],
     // ['link', { rel: 'manifest', href: '/favicon/site.webmanifest' }],
+    ['script', { async: true, src: 'https://www.googletagmanager.com/gtag/js?id=G-Z70BR45D1Y' }],
     [
       'script',
       {},
-      `(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-      new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-      j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-      'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-      })(window,document,'script','dataLayer','GTM-KFMGDCTN');`
+      `window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'G-Z70BR45D1Y');`
     ],
   ],
   
