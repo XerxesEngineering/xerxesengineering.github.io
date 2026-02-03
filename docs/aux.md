@@ -1,3 +1,7 @@
+---
+layout: doc
+title: Aux – Music app for your NAS
+---
 
 <div class="flex-table">
   <h1>
