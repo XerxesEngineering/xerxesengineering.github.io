@@ -4,8 +4,6 @@ title: Privacy
 description: Xerxes Engineering Privacy Policy
 ---
 
-<div style="height:50px"></div>
-
 # Privacy Policy
 
 **September 4th, 2024**
